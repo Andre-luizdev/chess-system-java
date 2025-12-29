@@ -56,7 +56,6 @@ public class ChessMatch {
             throw new ChessException("There is no possible moves for the chosen piece");
         }
     }
-///  /////////////////////////////////////////
 
     private void validateTargetPosition(Position source, Position target){
         if (!board.piece(source).possibleMove(target)){
